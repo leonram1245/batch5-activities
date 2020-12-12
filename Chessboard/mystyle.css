@@ -1,0 +1,46 @@
+.container{
+    margin-top:10vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10vw;
+
+    
+    display: flex;
+    flex-flow: column;
+    box-sizing:border-box;
+    width: 48vw;
+    height:48vw;
+    }
+
+.emphasize-dark {
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+      }
+
+    h1{
+        align-items:center;
+    }
+  .row{
+      display:flex;
+      flex:1;
+      flex-direction:row;
+  }
+.box1{
+    background-color:whitesmoke;
+    width:6vw;
+    height:6vw;
+    
+
+}
+.box2{
+    background-color:black;
+    width:6vw;
+    height:6vw;
+    
+}
+
+body{
+    background: #C19A6B;
+    color: #A37C4D;
+    
+    
+}

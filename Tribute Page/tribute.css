@@ -1,0 +1,163 @@
+div{
+    text-align:center;
+    font-size:30px;
+    font-family:cursive;  
+    color:white;
+}
+div>.fa{
+    text-align:center;
+    font-size:40px; 
+    color:white;
+}
+html{
+    height:100%;
+}
+h1{
+    color:white;
+    letter-spacing:20px;
+    font-family:fantasy;
+    text-shadow:4px 4px black;
+}
+h2{
+    color:white;
+    font-size:30px;
+    font-family:helvetica;
+}
+
+@media screen and (min-width: 601px) {
+    #tribute-info {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #tribute-info {
+      font-size: 20px;
+    }
+  }
+body{
+    background-color: #485461;
+
+   
+}
+#img-div{
+    
+    display:grid;
+    grid-template-columns:auto auto;
+    width:70vw;
+    height:70vw;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    justify-items:center;
+    opacity:1;
+    border:5px solid peachpuff;
+    background-color:grey;
+    border-radius:5px; 
+       
+  
+}
+.discography{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+
+#tribute-info{
+ margin-left:10vw;
+ margin-right:10vw;
+ justify-content: center;
+ text-align:left;;
+ line-height:1.5em;
+ opacity:0.8;
+ border: 5px solid lightblue;
+ border-radius:15px;
+ background:grey;
+ 
+ 
+ 
+ 
+}
+ 
+
+
+#image{
+    width: 34.5vw;
+    height:34.5vw;
+    opacity:0.78;
+    border-radius:50px;
+   
+}       
+            
+            
+            #image-caption{
+            text-align:center
+            }
+      #title{
+          text-align:center 
+         
+      }
+      #tribute-link{
+          color:white;
+          
+      }
+     
+     #disco1{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid yellow;
+        border-radius:25px;
+     }
+     #disco2{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid green;
+        border-radius:25px;
+     }
+     #disco3{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid blue;
+        border-radius:25px;
+     }
+     #disco4{
+    
+        width: 22.5vw;
+        height:22.5vw;
+        border:3px solid red;
+        border-radius:25px;
+     }
+
+    .fa{
+        display:flex;
+  text-align: center;
+  justify-content:center;
+  text-decoration: none;
+  
+  
+
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        
+
+      }
+     .fa-twitter {
+        background: lightblue;
+        color: white;
+
+     }
+     .fa-youtube {
+        background:rgb(230,33,23);
+        color: white;
+
+     } 
+     .fa-instagram {
+        background:rgb(251,57,88);
+        color: white;
+    
+     } 

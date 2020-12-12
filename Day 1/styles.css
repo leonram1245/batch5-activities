@@ -1,0 +1,70 @@
+<!--
+h1{ 
+    color: rgb(238, 228, 227);
+    text-align: center;
+}
+   li,p{
+     color: rgb(238, 228, 227);
+     font-size: large;
+    
+
+   }
+   a{
+    color: rgb(238, 228, 227);
+    font-size: medium;
+    text-align:left;
+   }
+body{
+    text-align:left;
+    background-size: contain;   
+    background-color:#222234;
+}
+
+.flex-container {
+    display: flexbox;
+    flex-wrap: wrap;
+  }
+  
+  
+  .btn {
+    background-color:#222234;
+    border: none;
+    color: white;
+    padding:10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #04FF92;
+  }
+  .box1 {
+    display:flex;
+    background-color: #FFBA00;
+    border: 15px solid #222234;
+    justify-content: stretch;
+   
+  }
+  .box2{
+    width: 300px;
+    border: 5px solid #F9ED53;
+    background-color: #222256;
+    padding: 50px;
+    margin: 20px;
+    height:400px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Thinking_Cartoon_Businessman.svg/460px-Thinking_Cartoon_Businessman.svg.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .box3{
+    width: 1000px;
+    height:400px;
+    margin: 20px;
+    align-items:stretch;
+  }
+
+  .ff{
+      display:flex;
+      justify-content: flex-start;
+  }
