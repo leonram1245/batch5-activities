@@ -10,3 +10,5 @@
 \
 [GridChessboard](https://leonram1245.github.io/batch5-activities/Grid_Chessboard/)
 
+https://jsfiddle.net/ybvLpqmh/10/
+
