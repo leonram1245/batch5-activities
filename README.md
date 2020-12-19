@@ -14,7 +14,7 @@
 \
 [FormActivity](https://leonram1245.github.io/batch5-activities/Form_Activity/)
 \
-[SimpleCalculator](https://leonram1245.github.io/batch5-activities//)
+[SimpleCalculator](https://leonram1245.github.io/batch5-activities/Simple%20Calculator/)
 
 \
 [BMIExercise](https://jsfiddle.net/ybvLpqmh/10/)
