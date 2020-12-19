@@ -1,0 +1,190 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+#header{
+    
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(208, 17, 43);
+    position:fixed;
+    flex-wrap:nowrap;
+    
+    
+}
+
+#nav-bar{
+    margin-right:50px;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-size:1.5em;
+    text-decoration:none;
+    padding:15px;
+    font-family:monospace;
+
+}
+.container{
+    padding-top:100px;
+    text-align:center;
+    background-image:url("Assets/beats.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    
+}
+
+h1,h2{
+    color:whitesmoke;
+    letter-spacing:5px;
+}
+
+    
+body{
+ background-color:	rgb(42, 42, 42);
+
+}
+
+iframe{
+    margin-right:auto;
+    
+    height:560px;
+    width:315px;
+    width:50%;
+
+}
+form {
+    padding:50px;
+    text-align:center;
+    vertical-align:center;
+    display:flex;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+
+label{
+    font-size:25px;
+    color:whitesmoke;
+    letter-spacing:2.5px;
+}
+
+input[type = "email"]{
+    margin-left:5px;
+    width:360px;
+    font-size:25px;
+    height:40px;
+   
+}
+
+#description{
+    margin-right:auto;
+}
+
+input[type = "submit"]{
+    margin-left:30px;
+    font-size:15px;
+    height:30px;
+    width:10%;
+    background-color:blue;
+    
+}
+
+
+
+#video{
+    display:flex;
+    justify-content:space-evenly;
+   
+}
+
+#video p,ul{
+    margin-top:50px;
+   text-align:center;
+   font-size: 1.5rem;
+   color:whitesmoke;
+   text-align:left;
+   margin-right:40px;
+   line-height:2em;
+}
+
+
+.form-container{
+background-color:black;
+OPACITY:.8;
+}
+
+
+@media only screen and (max-width:725px){
+    #video{
+       flex-direction:column;
+       max-width:100%;
+       
+    }
+    iframe{
+        width:100%;
+    }
+    #video p,ul{
+        margin-top:10px;
+       text-align:center;
+       font-size: 1.5rem;
+       color:whitesmoke;
+       text-align:left;
+       line-height:2em;
+       margin-left:10px;
+    }
+
+    .form-container form input[type ="email"] {
+       width:75%;
+    }
+
+    .form-container form input[type ="submit"] {
+        width:50%;
+     }
+
+     form{
+         flex-direction:column;
+     }
+
+     #header{
+         
+         flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+        
+        
+     }
+     
+.nav-link{
+    max-width:100%;
+    color: whitesmoke;
+    font-size:1.5em;
+    text-decoration:none;
+    padding:7px;
+    font-family:monospace;
+    
+
+}
+
+h1{
+    margin-top:100px;
+}
+
+}
+@media only screen and (max-width:400px){
+.nav-link{
+  font-size:1.2em;  
+}
+}
+
+@media only screen and (max-width:320px){
+    .nav-link{
+      font-size:1em;  
+    }
+    }
