@@ -13,8 +13,9 @@
 [ProductLandingPage](https://leonram1245.github.io/batch5-activities/Product%20Landing%20Page/#)
 \
 [FormActivity](https://leonram1245.github.io/batch5-activities/Form_Activity/)
+\
 [SimpleCalculator](https://leonram1245.github.io/batch5-activities//)
 
-/
+\
 [BMIExercise](https://jsfiddle.net/ybvLpqmh/10/)
 
