@@ -19,5 +19,5 @@
 \
 [BMIExercise](https://jsfiddle.net/ybvLpqmh/10/)
 \
-[DeckofCards](https://jsfiddle.net/2Lj4xwv6/844/)
+[DeckofCards](https://jsfiddle.net/htx1yc08/10/)
 
