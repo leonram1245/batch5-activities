@@ -150,8 +150,7 @@ function checkMultipleofFive(){
 
 
 function startNotice(){
-    let start = prompt('type startGame() to proceed/ Open console first!');
-  
+console.log('type startGame() to proceed:')  
     }
 
 startNotice();
