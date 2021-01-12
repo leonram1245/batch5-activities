@@ -17,6 +17,8 @@
 [SimpleCalculator](https://leonram1245.github.io/batch5-activities/Simple%20Calculator/)
 \
 [PigGame](https://leonram1245.github.io/batch5-pig-game/)
+\
+[QuizGame](https://github.com/leonram1245/batch5-activities/tree/main/Quiz%20Game)
 
 \
 [BMIExercise](https://jsfiddle.net/ybvLpqmh/10/)
