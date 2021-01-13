@@ -144,7 +144,7 @@ function startGame(){
 
 function checkMultipleofFive(){
     if(counter%5==0){
-        console.log(`You have a Streak of ${counter} Correct Answers!`)
+        alert(`You have a Streak of ${counter} Correct Answers!`)
     }
 }
 
