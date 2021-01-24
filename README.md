@@ -21,6 +21,10 @@
 [QuizGame](https://leonram1245.github.io/batch5-activities/Quiz%20Game/)
 \
 [BookStore](https://leonram1245.github.io/batch5-activities/BookStore/)
+\
+[PlayingCards](https://leonram1245.github.io/batch5-activities/PlayingCards/)
+
+
 
 [BMIExercise](https://jsfiddle.net/ybvLpqmh/10/)
 \
