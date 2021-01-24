@@ -18,9 +18,10 @@
 \
 [PigGame](https://leonram1245.github.io/batch5-pig-game/)
 \
-[QuizGame]()
-
+[QuizGame](https://leonram1245.github.io/batch5-activities/Quiz%20Game/)
 \
+[BookStore](https://leonram1245.github.io/batch5-activities/BookStore/)
+
 [BMIExercise](https://jsfiddle.net/ybvLpqmh/10/)
 \
 [DeckofCards](https://jsfiddle.net/z0qshw3u/)
