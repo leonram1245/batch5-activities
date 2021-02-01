@@ -1,0 +1,19 @@
+#whiteCasualities{
+    visibility:hidden;
+}
+#blackCasualities{
+    visibility:hidden;
+}
+
+#chessCanvas{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container h1,h2{
+    text-align:center;
+}
+
+body{
+ background-color:grey;
+}
