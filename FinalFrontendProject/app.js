@@ -149,25 +149,3 @@ function getScreenShots(){
 }
 
 
-function getTopGames(){
-    fetch('https://api.rawg.io/api/games?key=96261bbc4b0143ea83f0df495d7e3c3f&page_size=50')
-    .then((res)=>res.json())
-    .then((res)=>{
-        let info = res.results;
-        for(i=0;i<info.length;i++){
-            if(info[i].metacritic>90){
-                output += `<div class = "col-md-3">
-                <div class = "card text-center">
-                <img src = ${item.background_image}
-                <h5>${item.name}</h5>
-                <a onclick = "gameSelected('${item.slug}')" class = "btn btn-primary" href = "#">Game Details</a>
-                </div> </div>
-                  `
-            }
-        }
-        gameSearch.innerHTML = output;
-        console.log(output)
-
-    })    
-}
-
