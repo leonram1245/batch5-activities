@@ -1,0 +1,46 @@
+html,body{
+   font-family:'Poppins';
+   font-size:20px;
+   line-height:1.5;
+   box-sizing:border-box;
+}
+
+
+#games img #game img {
+width:100%;
+}
+
+#games img:hover{
+   margin-left:0 40px;
+   transform:scale(1.1);
+   cursor:pointer;
+   background-color:red;
+}
+
+
+.spinner-border{
+   visibility: hidden;
+}
+
+
+#games .col-md-3 .card img{
+   height:200px;
+   margin:15px auto;
+}
+
+#games .col-md-3 img{
+ height:200px;
+ width:250px;
+ 
+}
+
+
+.card{
+width:300px;
+   background-color:lightgrey;
+   margin-bottom:20px;
+}
+
+h2{
+text-align:auto
+}
