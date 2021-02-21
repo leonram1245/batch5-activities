@@ -8,7 +8,7 @@ html,body{
  #game img{
      height:352px;
      width:450px;
-
+display:block;
  }
 
 .container-md{

@@ -10,10 +10,22 @@ let specsGame = document.querySelector('#game');
 let page = document.querySelector('#page');
 let background = document.querySelector('#background');
 let screenshots = document.querySelector('#screenshots');
+let topGames = document.querySelector('#topGames');
+let action = document.querySelector('#action');
+let indie = document.querySelector('#indie');
+let adventure = document.querySelector('#adventure');
+let singleplayer = document.querySelector('#singleplayer');
+let multiplayer = document.querySelector('#multiplayer');
+let tgames = document.querySelector('#tgames');
+
+
+
 
 function gameOn(data){
+    topGames.innerHTML ="";
     gameSearch.innerHTML = "";
     page.innerHTML = "";
+        
         let games = data.results;
         let pageCount = Math.ceil(data.count/40);
         console.log(pageCount);
@@ -48,6 +60,7 @@ function gameOn(data){
         
         console.log(data.results)
         console.log(data);
+        console.log(output2)
         }  
 
 function fetchGame(dynamicUrl){
@@ -110,8 +123,6 @@ function getGame(){
     <p class = "lead">    ${info.description} </p>
     </div>
 `
-
-
     specsGame.innerHTML = display;
     if(info.rating===0){
         document.getElementById('rating').innerHTML = 'Rating:N/A';    
@@ -148,4 +159,60 @@ function getScreenShots(){
 
 }
 
+function getTopGames(query){
+    let output = ''
+    fetch('https://api.rawg.io/api/games?key=96261bbc4b0143ea83f0df495d7e3c3f'+query)
+    .then((res)=>res.json())
+    .then((res)=>{
+        topGames.innerHTML = '';
+      let games = res.results;  
+      games.forEach(get);
+      function get(item){
+          if(item.background_image){
+              output += `<div class = "col-md-3" id ="top">
+              <div class = "card text-center">
+              <img src = ${item.background_image}
+              <h5>${item.name}</h5>
+              <a onclick = "gameSelected('${item.slug}')" class = "btn btn-primary" href = "#">Game Details</a>
+              </div> </div>
+                `
+          }
+        }
+        topGames.innerHTML = `${output}`;
+
+    })
+}
+
+
+action.onclick = function(){
+    getTopGames('&genres=action');
+}
+tgames.onclick = function(){
+    getTopGames('&metacritic=95,100');
+}
+adventure.onclick = function(){
+    getTopGames('&genres=adventure');
+}
+indie.onclick = function(){
+    getTopGames('&genres=indie');
+}
+singleplayer.onclick = function(){
+    getTopGames('&tags=singleplayer');
+}
+multiplayer.onclick = function(){
+    getTopGames('&tags=multiplayer');
+}
+
+
+
+window.onload = function(){
+
+    `  <button class="btn btn-success" type="submit" id ='tgames'>Top Games</button>  
+<button class="btn btn-success" type="submit" id ="action">action</button>  
+<button class="btn btn-success" type="submit" id ="adventure">adventure</button>  
+<button class="btn btn-success" type="submit" id ="indie">indie</button>  
+<button class="btn btn-success" type="submit" id ="singleplayer">singleplayer</button>  
+<button class="btn btn-success" type="submit" id ="multiplayer">multiplayer</button>  
+${getTopGames('&metacritic=95,100')}`;
+}
 
