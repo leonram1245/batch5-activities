@@ -19,8 +19,6 @@ let multiplayer = document.querySelector('#multiplayer');
 let tgames = document.querySelector('#tgames');
 
 
-
-
 function gameOn(data){
     topGames.innerHTML ="";
     gameSearch.innerHTML = "";
@@ -57,11 +55,7 @@ function gameOn(data){
 
         gameSearch.innerHTML = output;
         page.innerHTML = output2;
-        
-        console.log(data.results)
-        console.log(data);
-        console.log(output2)
-        }  
+         }  
 
 function fetchGame(dynamicUrl){
     fetch(dynamicUrl)
@@ -205,9 +199,7 @@ multiplayer.onclick = function(){
 
 
 
-window.onload = function(){
-
-    `  <button class="btn btn-success" type="submit" id ='tgames'>Top Games</button>  
+window.onload = function(){`<button class="btn btn-success" type="submit" id ='tgames'>Top Games</button>  
 <button class="btn btn-success" type="submit" id ="action">action</button>  
 <button class="btn btn-success" type="submit" id ="adventure">adventure</button>  
 <button class="btn btn-success" type="submit" id ="indie">indie</button>  
