@@ -20,8 +20,9 @@ def get_area_code(somehash,key)
     puts somehash[key]
     end
 
-get_city_names(dial_book)
 loop do
+   
+    get_city_names(dial_book)
     puts "Enter a City, type esc to exit program"
     city = gets.chomp.downcase
 if city == "esc"
