@@ -20,14 +20,13 @@ order by film.title;
 -- Column => actor_full_name, film_title, category_name
 -- Answer => 34 rows
 
-select concat(actor.first_name ,' ',actor.last_name) as full_name,film.title,category.name from film
+select concat(actor.first_name ,' ',actor.last_name) as actor_full_name,film.title as film_title,category.name as category_name from film
 left join film_actor on film.film_id = film_actor.film_id
 left join actor on film_actor.actor_id = actor.actor_id
 left join film_category on film.film_id = film_category.film_id
 inner join category on film_category.category_id = category.category_id
 where film_category.category_id = 5
 and substring (actor.last_name,1,1) = 'D'
-order by full_name asc;
-
+order by actor_full_name asc;
 
 
