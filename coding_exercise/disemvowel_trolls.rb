@@ -1,5 +1,5 @@
 def disemvowel(str)
-(str.chars - "aeiou".chars).join
+(str.chars - "aAeEiIoOuU".chars).join
 end
 
 puts disemvowel('This is not for trolls')
