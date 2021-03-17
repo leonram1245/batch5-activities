@@ -7,4 +7,4 @@ def centuryFromYear(year)
     end
     end
 
-puts centuryFromYear(1958);
+puts centuryFromYear(1705);
