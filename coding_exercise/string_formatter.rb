@@ -5,4 +5,4 @@ def string_formatter(names)
     "#{names.join(', ')} & #{ln}"
   end
 
-puts string_formatter([{name: "Marnoel"},{name: "Matt"}, {name: "Cherry"}])
+puts string_formatter([{name: "Marnoel"},{name: "Matt"}, {name: "Cherry"}]) 
