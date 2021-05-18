@@ -18,9 +18,9 @@
 \
 [PigGame](https://leonram1245.github.io/batch5-pig-game/)
 \
-[QuizGame](https://leonram1245.github.io/batch5-activities/Quiz%20Game/)
+[QuizGame(Console Only)](https://leonram1245.github.io/batch5-activities/Quiz%20Game/)
 \
-[BookStore](https://leonram1245.github.io/batch5-activities/BookStore/)
+[BookStore(Console Only)](https://leonram1245.github.io/batch5-activities/BookStore/)
 \
 [PlayingCards](https://leonram1245.github.io/batch5-activities/PlayingCards/)
 \
